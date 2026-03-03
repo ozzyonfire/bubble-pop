@@ -1,0 +1,11 @@
+declare module "typegpu" {
+  const tgpu: {
+    init?: () => Promise<{ device?: unknown }>;
+  };
+
+  export const tgpu: {
+    init?: () => Promise<{ device?: unknown }>;
+  };
+
+  export default tgpu;
+}

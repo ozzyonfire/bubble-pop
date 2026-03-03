@@ -3,12 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "dependencies": {
+    "typegpu": "^0.10.1"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@webgpu/types": "^0.1.69",
     "typescript": "latest",
     "vite": "latest"
   }
